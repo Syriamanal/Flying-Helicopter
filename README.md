@@ -20,4 +20,4 @@ FlappyBird-By-JS
 *  CSS
 
 
-Live Demo: http://syriamanal.github.io/FlappyBird
+Live Demo: http://syriamanal.github.io/Flappy-Bird
