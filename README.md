@@ -1,4 +1,4 @@
-FlappyBird-By-JS
+FlappyBird Pro
 ================
 
       3rd Party Things Used
