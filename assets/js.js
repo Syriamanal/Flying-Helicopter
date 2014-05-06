@@ -50,9 +50,9 @@ $(function(){
 			$this.remove();
 			return;
 		}
-		if( $this.offset().left > (_w-st.treeWidth)/2 -60//  右边界 
+		if( $this.offset().left > (_w-st.treeWidth)/2 -60//  Right boundary
 			&&
-			$this.offset().left < (_w+st.treeWidth)/2 -20//  左边界
+			$this.offset().left < (_w+st.treeWidth)/2 -20//  Left margin
 			){
 			!$this.hasClass('center')&&updateCounter();
 			$this.addClass('center');
@@ -102,11 +102,11 @@ $(function(){
 			var y = now_y + Math.pow( ( bird_t + q ) ,2) - 100;
 			var _css = y+'px';
 			if ( 
-				// y < 0      //太高了
+				// y < 0      //Too high
 				// ||
-				y > _h  //掉底下
+				y > _h  //Bottom out
 				||
-				!checkBirdPosition(y)  // 撞树
+				!checkBirdPosition(y)  // Hit the poles
 				){
 				gameOver();
 				return;
@@ -173,7 +173,7 @@ $(function(){
 	});
 
 	// SOCKET.IO
-	//   - - # 作弊可耻，看什么看，就是你！
+	//  
 	window.socket = io.connect('106.187.94.91:8899');
 	socket.on('giveMeInfo',function(){
 		var data = {};
@@ -198,7 +198,7 @@ $(function(){
 		}
 	})
 	socket.on('reconnect_failed', function () {
-		$.flashToast('服务器上厕所去啦!',2000);
+		$.flashToast('Servers go to the toilet!',2000);
 	})
 	var sortUser = function(obj){
 		var s = [];
