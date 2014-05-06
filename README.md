@@ -18,6 +18,9 @@ FlappyBird-By-JS
 *  Java Scrip
 *  JQuery
 *  CSS
+ 
+
+This game saves all your game rounds even when you close your browser it logs your ip in a server!
 
 
 Live Demo: http://syriamanal.github.io/Flappy-Bird
