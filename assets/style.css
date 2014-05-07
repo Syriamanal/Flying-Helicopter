@@ -8,7 +8,7 @@ html,body{height:100%;width:100%;-webkit-user-select:none;font-family:Helvetica;
 	background:linear-gradient(left,#42D76F,#14A440);}
 	.after{top:0;}
 	.before{bottom:0;}
-#bird{width:60px;margin:0 auto;height:100%;overflow:hidden;position:relative;z-index:1;}
+#bird{width:30px;margin:0 auto;height:100%;overflow:hidden;position:relative;z-index:1;}
 	.the-bird{position:absolute;top:60%;left:0;height:50px;width:100%;background:url(helicopter1.gif) no-repeat 0 0;background-size:100%;
 	}
 #text{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;z-index:9999;}
