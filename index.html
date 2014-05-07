@@ -24,11 +24,22 @@
 		<div class="the-bird"></div>
 	</div>
 	
-	 <?php
-	$Address = $_SERVER['REMOTE_ADDR'];
- 
-	echo "You IP Address Is: $Address";
-	?>
+	<script language="javascript">
+
+		//IP address display: By http://www.Hostroute.com
+		//Script featured on JavaScript Kit (http://www.javascriptkit.com)
+
+	var ip = '<!--#echo var="REMOTE_ADDR"-->'
+
+	function ipval() {
+		document.myform.ipaddr.value=ip;
+		}
+	window.onload=ipval
+	</script>
+
+	<form method="post" action="" name="myform">
+	 <input type="text" name="ipaddr" readonly>
+	</form>
 	
 	<div id="text">
 		<div id="counter">
