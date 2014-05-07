@@ -21,11 +21,11 @@ html,body{height:100%;width:100%;-webkit-user-select:none;font-family:Helvetica;
 
 	#user-list{position:absolute;left:10px;top:140px;list-style:none;}
 	#user-list:before {
-		content: 'Top30';
+		content: '';
 		color: #FFF;
 		}
 	#user-list:after {
-		content: 'online:'attr(total);
+		content: ''attr(total);
 		display: block;
 		position: absolute;
 		top: 0;
